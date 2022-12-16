@@ -177,4 +177,4 @@ include('_header.php');
                 </div>
             </div>
         </section>
-<?php include('_footer.php') ?>        
+<?php include('_footer.php'); ?>        

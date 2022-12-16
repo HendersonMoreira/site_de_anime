@@ -24,7 +24,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="img/trending/spy.jpg" alt='spy x family'>
-                                        <div class="ep">9.02</div>
+                                        <div class="ep"><a href="https://www.imdb.com/title/tt13706018/?ref_=nv_sr_srsg_0" target="_blank">8,5</a></div>
                                         <div class="comment"><i class="fa fa-comments"></i> 0</div>
                                         <div class="view"><i class="fa fa-eye"></i> 0</div>
                                     </div>
@@ -33,7 +33,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
                                             <li>Ação,Comédia</li>
                                             <li>Anime</li>
                                         </ul>
-                                        <h5><a href="anime-details.html">Spy x Family</a></h5>
+                                        <h5><a href="anime-details.php">Spy x Family</a></h5>
                                     </div>
                                 </div>
                             </div>

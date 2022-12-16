@@ -21,7 +21,7 @@
             </div>
             <div class="col-lg-3">
                 <p>
-                  Site Feito &copy;<script>document.write(new Date().getFullYear());</script> Por Henderson <i class="fa fa-heart" aria-hidden="true"></i> by <a href="" target="_blank"></a></p>
+                  Site &copy;<script>document.write(new Date().getFullYear());</script> Tio Animes  <i class="fa fa-heart" aria-hidden="true"></i> <a href="#" target="_blank"></a></p>
               </div>
           </div>
       </div>
@@ -31,7 +31,7 @@
     <div class="h-100 d-flex align-items-center justify-content-center">
         <div class="search-close-switch"><i class="icon_close"></i></div>
         <form class="search-model-form">
-            <input type="text" id="search-input" placeholder="Search here.....">
+            <input type="text" id="search-input" placeholder="Pesquisa o Anime...">
         </form>
     </div>
 </div>

@@ -34,7 +34,7 @@
             <div class="row">
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a href="./index.html">
+                        <a href="./index.php">
                             <img src="img/logo02 126.png" alt="logo de cima">
                         </a>
                     </div>
@@ -50,8 +50,8 @@
                                         <li><a href="anime-details.php">Detalhes Dos Animes</a></li>
                                         <li><a href="anime-watching.php">Anime Watching</a></li>
                                         <li><a href="blog-details.php">Detalhes Do Blog</a></li>
-                                        <li><a href="signup.html">Sign Up</a></li>
-                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="signup.php">Sign Up</a></li>
+                                        <li><a href="logi.php">Login</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="./blog.php">Data Blog</a></li>
@@ -64,7 +64,7 @@
                 <div class="col-lg-2">
                     <div class="header__right">
                         <a href="#" class="search-switch"><span class="icon_search"></span></a>
-                        <a href="./login.html"><span class="icon_profile"></span> </a>
+                        <a href="./logi.php"><span class="icon_profile"></span> </a>
                     </div>
                 </div>
             </div>
