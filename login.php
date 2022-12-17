@@ -10,7 +10,7 @@ if(empty($_POST['usuario']) || empty($_POST['password'])){
 $usuario = mysqli_real_escape_string($conn, $_POST['usuario']);
 $senha = mysqli_real_escape_string($conn, $_POST['password']);
 
-$query = "SELECT id,usuario,password FROM users WHERE usuario = '{$usuario}' AND password = SHA1('{$senha}')";
+$query = "SELECT id,usuario,password, foto FROM users WHERE usuario = '{$usuario}' AND password = SHA1('{$senha}')";
 
 $result = mysqli_query($conn, $query);
 

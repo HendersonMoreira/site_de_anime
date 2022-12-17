@@ -2419,3 +2419,9 @@ padding: 10px 5px;
 	text-align: center;
 	color: rgb(94, 94, 94);
 }
+.foto_usuario{
+  overflow: hidden;		
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

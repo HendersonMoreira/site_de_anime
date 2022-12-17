@@ -1,3 +1,12 @@
+<?php
+
+if (isset($_COOKIE['tioanimes_user_cookie'])) {
+    $foto = json_decode($_COOKIE['tioanimes_user_cookie'], true)["foto"];
+    $profile = '<a href="/profie.php" class="foto_usuario" ><img src="' . $foto . '"></a>';
+} else
+    $profile = '<a href="./logi.php"><span class="icon_profile"></span> </a>';
+
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -10,8 +19,7 @@
     <title>Tio Animes</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -28,7 +36,7 @@
     <div id="preloder">
         <div class="loader"></div>
     </div>
-    
+
     <header class="header">
         <div class="container">
             <div class="row">
@@ -64,7 +72,7 @@
                 <div class="col-lg-2">
                     <div class="header__right">
                         <a href="#" class="search-switch"><span class="icon_search"></span></a>
-                        <a href="./logi.php"><span class="icon_profile"></span> </a>
+                        <?php echo $profile ?>
                     </div>
                 </div>
             </div>
