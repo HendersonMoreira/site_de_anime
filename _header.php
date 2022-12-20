@@ -1,11 +1,13 @@
 <?php
-
 if (isset($_COOKIE['tioanimes_user_cookie'])) {
     $foto = json_decode($_COOKIE['tioanimes_user_cookie'], true)["foto"];
     $profile = '<a href="/profie.php" class="foto_usuario" ><img src="' . $foto . '"></a>';
-} else
-    $profile = '<a href="./logi.php"><span class="icon_profile"></span> </a>';
-
+$drop = '';
+} else{
+    $profile = '<a href="./logi.php"><span class="icon_profile"></span></a>';
+    $drop = '<li><a href="signup.php">Sign Up</a></li>
+             <li><a href="logi.php">Login</a></li>';
+}
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -58,8 +60,7 @@ if (isset($_COOKIE['tioanimes_user_cookie'])) {
                                         <li><a href="anime-details.php">Detalhes Dos Animes</a></li>
                                         <li><a href="anime-watching.php">Anime Watching</a></li>
                                         <li><a href="blog-details.php">Detalhes Do Blog</a></li>
-                                        <li><a href="signup.php">Sign Up</a></li>
-                                        <li><a href="logi.php">Login</a></li>
+                                        <?php echo $drop ?>
                                     </ul>
                                 </li>
                                 <li><a href="./blog.php">Data Blog</a></li>
