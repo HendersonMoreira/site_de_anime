@@ -2,7 +2,7 @@
 if (isset($_COOKIE['tioanimes_user_cookie'])) {
     $foto = json_decode($_COOKIE['tioanimes_user_cookie'], true)["foto"];
     $profile = '<a href="/profie.php" class="foto_usuario" ><img src="' . $foto . '"></a>';
-$drop = '';
+    $drop = '';
 } else{
     $profile = '<a href="./logi.php"><span class="icon_profile"></span></a>';
     $drop = '<li><a href="signup.php">Sign Up</a></li>

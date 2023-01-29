@@ -12,10 +12,9 @@ include('_header.php');
        </div>
        </div> 
        </section>
-    
 <div class="container2">
     <div id="foto_usuario">
-    <img src="favorita.png" alt="">
+   <img src="favorita.png" alt="">
     </div>
     <p id="nome"><?php echo $_SESSION['usuario'];?></p>
     </section>
