@@ -12,7 +12,7 @@ $row = mysqli_fetch_assoc($result);
 
 if($row['total'] == 1){
     $_SESSION['usuario_existe'] = true;
-    header('Location: login.html');
+    header('Location: logi.php');
     exit;
 }
 

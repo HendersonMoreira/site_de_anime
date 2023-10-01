@@ -26,5 +26,5 @@ INSERT INTO users (
     'Joca da Silva',
     'joca@silva.com',
     SHA1('123456'),
-    'https://randomuser.me/api/portraits/men/89.jpg'
+    '/img/blog/blog-12.jpg'
 );

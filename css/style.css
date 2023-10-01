@@ -2408,6 +2408,9 @@ padding: 10px 5px;
 }
 #por{
  padding: 1%;
+ width: 50%;
+ background-color: transparent;
+ color: rgb(170, 170, 170);
 }
 #le{
 	color: white;
@@ -2420,8 +2423,12 @@ padding: 10px 5px;
 	color: rgb(94, 94, 94);
 }
 .foto_usuario{
-  overflow: hidden;		
+  overflow: hidden;	
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+option{
+	background-color: #333;
+	font-size: 12px;
 }

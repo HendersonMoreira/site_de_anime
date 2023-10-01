@@ -14,9 +14,7 @@ include('_header.php');
             </div>
         </div>
     </section>
-    <!-- Normal Breadcrumb End -->
-
-    <!-- Signup Section Begin -->
+    
     <section class="signup spad">
         <div class="container">
             <div class="row">

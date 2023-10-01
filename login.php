@@ -29,7 +29,7 @@ if($row == 1){
     exit();
 }else{
     $_SESSION['nao_autenticado'] = true;
-    header('Location: signup.html');
+    header('Location: signup.php');
     exit();
 }
 ?>

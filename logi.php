@@ -39,7 +39,7 @@ include('_header.php');
                 <div class="col-lg-6">
                     <div class="login__register">
                         <h3>Crie Aqui Sua Conta</h3>
-                        <a href="signup.html" class="primary-btn">Register Now</a>
+                        <a href="signup.php" class="primary-btn">Register Now</a>
                     </div>
                 </div>
             </div>

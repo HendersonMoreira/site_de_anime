@@ -1,7 +1,7 @@
 <?php
 if (isset($_COOKIE['tioanimes_user_cookie'])) {
     $foto = json_decode($_COOKIE['tioanimes_user_cookie'], true)["foto"];
-    $profile = '<a href="/profie.php" class="foto_usuario" ><img src="' . $foto . '"></a>';
+    $profile = '<a href="/painel.php" class="foto_usuario" ><img src="' . $foto . '"></a>';
     $drop = '';
 } else{
     $profile = '<a href="./logi.php"><span class="icon_profile"></span></a>';
